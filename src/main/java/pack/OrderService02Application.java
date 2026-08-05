@@ -11,7 +11,7 @@ public class OrderService02Application {
 	@GetMapping("/")
 	public String home() {
 		System.out.println("하이");
-		return "16:00";
+		return "16:33";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(OrderService02Application.class, args);
