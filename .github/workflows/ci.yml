@@ -22,7 +22,7 @@ jobs:
       run: chmod +x ./mvnw
 
     - name: Build with Maven Wrapper
-      run: ./mvnw clean package -DskipTests
+      run: ./mvnwww clean package -DskipTests
 
     - name: Upload JAR as artifact
       uses: actions/upload-artifact@v4
